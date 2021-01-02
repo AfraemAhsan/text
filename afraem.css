@@ -1,0 +1,47 @@
+body
+{
+margin: 0;
+padding: 0;
+}
+
+section
+{
+    height: 100vh;
+    background-color: black;
+
+}
+video{
+    object-fit: cover;
+}
+h1 
+{ margin: 0; padding: 0; position: absolute; top: 50%; 
+transform:translateY(-50%);
+width: 100%;text-align: center;
+color:#5600ffe8;
+font-size: 5em;
+font-family: 'Grenze Gotisch', cursive;
+Letter-spacing: 0.1em;}
+
+h1 span
+{
+    display: inline-block;
+    animation: animate 1s linear infinite;
+    
+}
+@keyframes animate
+{
+  0%
+   {
+    opacity: 0;
+    transform:rotateY(90deg)   ;
+    filter: blur(10px)   ;
+   
+}
+    100%:            ;
+    {
+     opacity: 1;
+     transform:rotateY(0deg);
+     filter: blur(0px)   ;
+       
+}
+}   
